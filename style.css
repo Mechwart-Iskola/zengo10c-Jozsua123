@@ -1,12 +1,45 @@
+body{
+    background-color: #0a714e;
+}
 #content{
-	
+	width: 1230px;
+text-align: center;
+background-color: bisque;
+border-radius: 1%;
 }
 #imageright{
-	
+	margin-left: 20px;
+    float: left;
+    border: 10px;
+    border-radius: 10px;
+    background-color: burlywood;
 }
 #imageleft{
-	
+    margin-right: 40px;
+	margin-bottom: 88px;
 }
 .kepszoveg{
-	
+	font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+h1,h2{
+text-transform: uppercase;
+color: forestgreen;
+}
+
+p, ul, ol{
+text-align: justify;
+}
+.kepszoveg{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+a{
+    color: blue;
+}
+a:hover{
+    color: red;
 }
